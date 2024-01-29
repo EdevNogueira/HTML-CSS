@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: burlywood;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header {
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(178, 179, 180);
+            padding: 3px;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.400);
+        }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 20px;
+            color: black;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color: beige;
+        }
+        main {
+            background-color: beige;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+            box-shadow: -1px 2px 3px 1px rgba(0, 0, 0, 0.400);
+        }
+        article {
+            background-color: rgb(178, 179, 180);
+            padding: 5px;
+        }
+        article > aside {
+            background-color: beige;
+            margin: 0px;
+            padding: 1px;
+        }
+        article > aside > p {
+            margin: 0px;
+        }
+        footer {
+            background-color: beige;
+            padding: 3px;
+            margin: 0px;
+            text-align: center;
+            font-style: italic;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            width: 125px;
+            height: 125px;
+            background-color: rgba(0, 0, 255, 0.750);
+            margin: 10px auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body> <!--Os grouping tags são divs semânticas-->
+    <header> <!--Cabeçalho do corpo-->
+        <h1>Início do site</h1>
+        <nav> <!--para navegar, links e menus-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main> <!--Estrutura principal-->
+        <section id="outros">
+            <p>Ferramentas Jogos Notícias</p>
+        </section>
+        <section id="conteudo"> <!--Seções de conteúdo (pode estar dentro do article)-->
+            <article> <!--Para artigos/conteúdo (pode estar dentro de section)-->
+                <h2>Aprendendo idiomas</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat explicabo omnis consequuntur harum, aperiam sint accusantium ad libero minus, nam mollitia voluptas ut, eligendi adipisci numquam. Laboriosam alias pariatur distinctio.</p>
+                <aside> <!--Periférico ao artigo (escritor/autor)-->
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer> <!--Rodapé do site-->
+        <p>Produzido por Edilson Nogueira</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>
