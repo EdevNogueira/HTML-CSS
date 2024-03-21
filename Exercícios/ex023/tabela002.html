@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -37,6 +38,12 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th { /*essa propriedade de fixação do cabeçalho não está disponível em todos os navegadores*/
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         td.num {
@@ -101,5 +108,8 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae hic maxime deserunt commodi sed facilis illo at fugit a iure dolorem blanditiis repudiandae assumenda modi, tempora, autem quia exercitationem accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem quasi dolor recusandae cupiditate excepturi consectetur iste dolore quo, facilis eum similique eos voluptas, earum consequatur nulla saepe. Soluta, nostrum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus rem unde, saepe esse iure fugit quia tenetur. Distinctio quasi repellat quo et nobis cupiditate, voluptatibus sit magnam vitae cum maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eum numquam laudantium velit similique sit animi quia! Natus doloribus temporibus alias placeat dignissimos molestias blanditiis necessitatibus molestiae, earum facere voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, porro quod! Dolorum, unde vero error ut quidem perspiciatis voluptatibus laudantium rem minus! Necessitatibus exercitationem hic corporis itaque velit porro sapiente.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae hic maxime deserunt commodi sed facilis illo at fugit a iure dolorem blanditiis repudiandae assumenda modi, tempora, autem quia exercitationem accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem quasi dolor recusandae cupiditate excepturi consectetur iste dolore quo, facilis eum similique eos voluptas, earum consequatur nulla saepe. Soluta, nostrum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus rem unde, saepe esse iure fugit quia tenetur. Distinctio quasi repellat quo et nobis cupiditate, voluptatibus sit magnam vitae cum maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eum numquam laudantium velit similique sit animi quia! Natus doloribus temporibus alias placeat dignissimos molestias blanditiis necessitatibus molestiae, earum facere voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, porro quod! Dolorum, unde vero error ut quidem perspiciatis voluptatibus laudantium rem minus! Necessitatibus exercitationem hic corporis itaque velit porro sapiente.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae hic maxime deserunt commodi sed facilis illo at fugit a iure dolorem blanditiis repudiandae assumenda modi, tempora, autem quia exercitationem accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non exercitationem quasi dolor recusandae cupiditate excepturi consectetur iste dolore quo, facilis eum similique eos voluptas, earum consequatur nulla saepe. Soluta, nostrum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus rem unde, saepe esse iure fugit quia tenetur. Distinctio quasi repellat quo et nobis cupiditate, voluptatibus sit magnam vitae cum maiores. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis eum numquam laudantium velit similique sit animi quia! Natus doloribus temporibus alias placeat dignissimos molestias blanditiis necessitatibus molestiae, earum facere voluptatibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, porro quod! Dolorum, unde vero error ut quidem perspiciatis voluptatibus laudantium rem minus! Necessitatibus exercitationem hic corporis itaque velit porro sapiente.</p>
 </body>
 </html>
