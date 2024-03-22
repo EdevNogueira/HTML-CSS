@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .rosa {
+            background-color: pink;
+        }
+        .verde {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="rosa">
+            <col class="verde" span="3">
+        </colgroup>
+        <caption>
+            <p>Registro</p>
+        </caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Jornalista</td>
+            </tr>
+            <tr>
+                <td>José Lucas</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Advogado</td>
+            </tr>
+            <tr>
+                <td>Edilson Nogueira</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Neymar Junior</td>
+                <td>M</td>
+                <td>32</td>
+                <td>Football Player</td>
+            </tr>
+            <tr>
+                <td>Gabriela Fernandes</td>
+                <td>F</td>
+                <td>22</td>
+                <td>Arquiteta</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
