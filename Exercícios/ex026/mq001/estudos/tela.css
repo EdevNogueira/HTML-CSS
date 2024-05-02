@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(134, 134, 134);
+}
+
+header > h1 {
+    background-color: rgb(148, 145, 145);
+    text-align: center;
+}
+
+menu ul {
+    list-style-type: none;
+    background-color: rgb(97, 96, 96);
+}
+
+menu li {
+    display: inline-block;
+    background-color: rgb(59, 59, 59);
+    padding: 10px;
+    color: white;
+}
+
+article {
+    width: 600px;
+    margin: auto;
+}
